@@ -236,7 +236,9 @@ a.mt-button {
   padding: 15px 25px !important;
   line-height: 16px !important;
 }
-
+.fa-brands:hover{
+  color: #F54F36;
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
