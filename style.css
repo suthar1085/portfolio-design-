@@ -297,6 +297,7 @@ a.mt-button {
 }
 .about2{
   display: flex;
+  gap: 3vw;
 }
 
 /********************************************************MILESTONE SECTION**********************************************************/
@@ -572,6 +573,9 @@ footer{
     .img-responsive {
       width: 21% !important;
     }
+    .menu-button{
+      font-size: 4vw;
+    }
   }
   .ifont{
     i{
@@ -584,9 +588,10 @@ footer{
   }
   .about2{
     flex-direction: column-reverse;
+    gap: 0;
     .grid-container{
       grid-template-columns: repeat(2, 1fr);
-      gap: 2.3vw;
+      gap: 4.3vw;
       justify-items: center;
     }
     .circle{
@@ -622,6 +627,9 @@ footer{
   }
 
   .workprocess {
+    .hor{
+      height: 3.6vw !important;
+    }
     .square {
         width: 11.5vw;
         height: 8vw;
