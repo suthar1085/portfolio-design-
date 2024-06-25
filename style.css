@@ -17,8 +17,8 @@ body {
   background-color: #F54F36;
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 0.6vw 1.2vw;
+  font-size: 1.2vw;
   cursor: pointer;
 }
 
@@ -75,7 +75,7 @@ h3 {
 h1{
   color: #FFFFFF;
   /* font-weight: 800 !important; */
-  font-size: 70px !important;
+  font-size: 4.5vw !important;
   padding-bottom: 5px;
   color: #373432;
   line-height: 1em;
@@ -85,18 +85,18 @@ h1{
 h2{
   color: #2c3d4f !important;
   letter-spacing: 5px;
-  line-height: 60px !important;
-  font-size: 45px !important;
+  line-height: 2vw !important;
+  font-size: 2.9vw !important;
 }
 
 h3{
-  font-size: 25px !important;
+  font-size: 1.6vw !important;
 }
 h4{
   text-transform: uppercase;
   color: #70777d !important;
   font-weight: bold !important;
-  font-size:larger !important;
+  font-size: 1.3vw !important;
   margin: 0 !important;
 }
 header {
@@ -113,13 +113,13 @@ header {
 }
 
 .padd{
-  padding: 4rem !important;
+  padding: 4.5vw !important;
   padding-top: 2.5rem !important;
 }
 
 .about{
-  padding-left: 8rem !important;
-  padding-right: 8rem !important;
+  padding-left: 8vw !important;
+  padding-right: 8vw !important;
 }
 .titles{
   display: flex;
@@ -146,7 +146,7 @@ header {
   bottom: 20%;
   right: 0;
   left: 0;
-  width: 23%;
+  width: 23vw;
   /* height: 100px; */
   border-radius: 50%;
   box-shadow: 0 0 0 5px #151515,
@@ -161,7 +161,7 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 8px solid #f3ecec;
+    border: 0.5vw solid #f3ecec;
     border-radius: 50%;
   }
 }
@@ -175,9 +175,9 @@ section{
   .border{
     display: block;
     background-color: #2c3d4f !important;
-    margin: 40px auto;
-    width: 60px;
-    height: 4px !important;
+    margin: 4vw auto;
+    width: 6vw;
+    height: 0.3vw !important;
   }
 }
 p{
@@ -186,16 +186,18 @@ p{
 }
 .para{
   text-align: left;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.5vw;
 }
 .first{
   font-weight: bold;
   color: #7e878f;
   padding: 5px;
+  font-size: 1.1vw;
 }
 .second{
   color: #7e868e;
   padding: 5px;
+  font-size: 1vw;
 }
 
 .info{
@@ -232,9 +234,8 @@ a.mt-button {
 }
 .large {
   font-size: 1vw !important;
-  line-height: 14px !important;
-  padding: 15px 25px !important;
-  line-height: 16px !important;
+  line-height: 1.4vw !important;
+  padding: 1vw 1.8vw !important;
 }
 .fa-brands:hover{
   color: #F54F36;
@@ -271,8 +272,8 @@ a.mt-button {
   background: #e9e9e9;
   /* border: 1px solid #000; */
   i{
-    height: 2.6rem;
-    font-size: 2rem;
+    height: 2.6vw;
+    font-size: 2.2vw;
     color: #8b8b91;
   }
 }
@@ -291,7 +292,7 @@ a.mt-button {
 .ifont{
   i{
     padding: 0.2rem;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 }
 .about2{
@@ -308,9 +309,9 @@ a.mt-button {
   background-size: cover;
 }
 .mileflex{
-  padding-top: 4rem !important;
+  padding-top: 4vw !important;
   display: flex;
-    gap: 2rem;
+    gap: 2vw;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -322,14 +323,14 @@ a.mt-button {
   gap: 7vw;
 }
 .up ,.ups{
-  font-size: large;
+  font-size: 1.2vw;
   text-align: center;
   font-weight: 800 !important;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   padding-top: 1.2vw;
 }
 .low{
-  font-size: medium;
+  font-size: 1vw;
   font-weight: 500 !important;
 }
 
@@ -415,14 +416,14 @@ a.mt-button {
     display: block;
     background-color: #eceff3 !important;
     /* margin: 10px auto; */
-    width: 30px;
+    width: 2vw;
     height: 2px !important;
   }
   .ver2{
     display: block;
     background-color: #eceff3 !important;
-    margin-top: 63%;
-    width: 30px;
+    margin-top: 70%;
+    width: 2vw;
     height: 2px !important;
   }
   .hor{
@@ -430,7 +431,7 @@ a.mt-button {
     background-color: #eceff3 !important;
     /* margin: 10px auto; */
     width: 2px;
-    height: 40px !important;
+    height: 3vw !important;
   }
 
 }
@@ -542,4 +543,19 @@ footer{
 }
 .scales:hover{
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  header{
+    height: 60vh;
+  }
+  .avatar-holder {
+    bottom: 13vw;
+  }
+  .about2{
+    flex-direction: column-reverse;
+  }
 }
