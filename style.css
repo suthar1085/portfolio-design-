@@ -243,8 +243,8 @@ a.mt-button {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  padding: 20px;
+  gap: 1.3vw;
+  padding: 2vw;
 
   .circleBase:hover{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -544,18 +544,78 @@ footer{
 .scales:hover{
   transform: scale(1.1);
 }
-
+.sign{
+  height: 3vw
+}
 @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }
+  h1{
+    font-size: 7.2vw !important;
+  }
+  h2{
+    font-size: 4vw !important;
+  }
+  h3{
+    font-size: 3.4vw !important;
+  }
+  h4{
+    font-size: 3vw !important;
+  }
   header{
-    height: 60vh;
+    height: 50vh;
+  }
+  .img-responsive {
+    width: 21% !important;
+  }
+  .ifont{
+    i{
+      font-size: 3vw;
+    }
   }
   .avatar-holder {
-    bottom: 13vw;
+    width: 30vw;
+    bottom: 15vw;
   }
   .about2{
     flex-direction: column-reverse;
+  }
+  .circle{
+    width: 15vw;
+    height: 15vw;
+    i{
+      height: 5.6vw;
+      font-size: 5vw;
+    }
+  }
+  .scircle{
+    width: 8.5vw;
+    height: 8.5vw;
+    i{
+      font-size: 4.5vw;
+    }
+  }
+  .workprocess {
+    .square {
+        width: 11.5vw;
+        height: 8vw;
+        font-size: 5vw !important;
+    }
+}
+  .up, .ups{
+    font-size: 2.5vw;
+  }
+  .low{
+    font-size: 2.5vw;
+  }
+  .sign{
+    height: 6vw
+  }
+  .first{
+    font-size: 3vw;
+  }
+  .second{
+    font-size: 3vw;
   }
 }
