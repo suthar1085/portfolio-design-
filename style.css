@@ -519,6 +519,10 @@ textarea {
 /* #submit{
   padding-top: 2rem;
 } */
+ .contdata{
+  display: flex;
+  justify-content: space-between;
+ }
 .form input.btn[type="submit"] {
   text-align: center;
   text-transform: uppercase;
@@ -526,7 +530,7 @@ textarea {
   /* margin-bottom: 100px; */
   outline: none;
   color: #FFFFFF;
-  padding: 22px;
+  padding: 2vw;
 }
 .form textarea {
   height: 174px;
@@ -552,26 +556,26 @@ footer{
     background-color: lightblue;
   }
   h1{
-    font-size: 7.2vw !important;
+    font-size: 8.2vw !important;
   }
   h2{
-    font-size: 4vw !important;
+    font-size: 5vw !important;
   }
   h3{
-    font-size: 3.4vw !important;
+    font-size: 4.4vw !important;
   }
   h4{
-    font-size: 3vw !important;
+    font-size: 4vw !important;
   }
   header{
     height: 50vh;
-  }
-  .img-responsive {
-    width: 21% !important;
+    .img-responsive {
+      width: 21% !important;
+    }
   }
   .ifont{
     i{
-      font-size: 3vw;
+      font-size: 4vw;
     }
   }
   .avatar-holder {
@@ -580,42 +584,121 @@ footer{
   }
   .about2{
     flex-direction: column-reverse;
-  }
-  .circle{
-    width: 15vw;
-    height: 15vw;
-    i{
-      height: 5.6vw;
-      font-size: 5vw;
+    .grid-container{
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.3vw;
+      justify-items: center;
+    }
+    .circle{
+      width: 22vw;
+      height: 22vw;
+      i{
+        height: 9.6vw;
+        font-size: 8vw;
+      }
     }
   }
-  .scircle{
-    width: 8.5vw;
-    height: 8.5vw;
-    i{
-      font-size: 4.5vw;
+  .milestone{
+    .mileicon{
+      column-gap: 0;
+      flex-wrap: wrap;
+    }
+    .circleBase{
+      width: 50%;
+    }
+    .scircle{
+      width: 16.5vw;
+      height: 16.5vw;
+      i{
+        font-size: 8.5vw;
+      }
+    }
+    .up{
+      font-size: 4.5vw !important;
+    }
+    .low{
+      font-size: 3.5vw !important;
     }
   }
+
   .workprocess {
     .square {
         width: 11.5vw;
         height: 8vw;
-        font-size: 5vw !important;
+        i{
+          font-size: 4.5vw !important;
+        }
     }
 }
   .up, .ups{
     font-size: 2.5vw;
   }
   .low{
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
   .sign{
-    height: 6vw
+    height: 8vw;
+  }
+  a.mt-button{
+    width: 42vw;
+    font-size: 3vw !important;
   }
   .first{
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .second{
-    font-size: 3vw;
+    font-size: 4vw;
   }
+  .clients{
+    .brands{
+      grid-template-columns: repeat(auto-fit, minmax(95px, 1fr));
+    }
+  }
+  .brands__item img  {
+      height: 16vw;
+    }
+    .form input[type="text"], textarea {
+      width: 100%;
+      height: 11vw;
+      padding: 2vw 3%;
+    }
+    .form textarea {
+      height: 104px;
+    }
+    .quates {
+      h3 {
+          font-size: medium !important;
+          line-height: 3.2vh !important;
+      }
+  }
+  .contactus {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    .leftflex{
+      padding: 2vw 0;
+      gap: 2vw;
+      text-align: center;
+      flex-direction: column;
+      h4{
+        font-size: 4.5vw !important;
+      }
+      p{
+        font-size: 4vw !important;
+      }
+    }
+    .second{
+      padding: 0%;
+    }
+    .square {
+      width: 14.5vw;
+      height: 14.5vw;
+      i{
+        font-size: 5.5vw !important;
+      }
+    }
+  }
+  .contdata{
+    flex-direction: column;
+   }
 }
