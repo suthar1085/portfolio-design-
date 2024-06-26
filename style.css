@@ -152,8 +152,8 @@ header {
   width: 23vw;
   /* height: 100px; */
   border-radius: 50%;
-  box-shadow: 0 0 0 5px #151515, inset 0 0 0 5px #000000,
-    inset 0 0 0 5px #000000, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000;
+  /* box-shadow: 0 0 0 5px #151515, inset 0 0 0 5px #000000,
+    inset 0 0 0 5px #000000, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000; */
   background: white;
   overflow: hidden;
   animation: mvTop 1.5s;
