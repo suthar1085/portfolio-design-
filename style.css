@@ -362,12 +362,12 @@ a.mt-button {
   flex-direction: column;
   gap: 3vw;
 }
-.lefttext{
+/* .lefttext{
   display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-}
+} */
 .squarebase {
   display: flex;
   align-items: center;
@@ -623,6 +623,31 @@ footer{
     }
     .low{
       font-size: 3.5vw !important;
+    }
+  }
+
+  .services{
+    .left, .right{
+      text-align: center;
+    }
+    .leftflex{
+      flex-direction: column-reverse;
+    }
+    .rightflex{
+      flex-direction: column;
+    }
+    .paddmobile{
+      padding-top: 1.4rem;
+    }
+    .gapping{
+      gap: 4.5vw;
+    }
+    .square {
+      width: 12.5vw;
+      height: 12.5vw;
+      i{
+        font-size: 6.5vw;
+      }
     }
   }
 
